@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Declare your gem's dependencies in image_extractor.gemspec.
+# Declare your gem's dependencies in extract_tools.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -12,11 +12,3 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
-<<-comment
-gem 'httparty'
-gem 'nokogiri'
-gem 'rspec'
-gem 'rspec-mocks'
-gem 'pry'
-gem 'webmock'
-comment
