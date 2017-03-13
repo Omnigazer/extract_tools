@@ -34,7 +34,7 @@ module ExtractTools
 
     def extract_images
       doc = Nokogiri::HTML(page_body)
-      doc.css("img").map {|img| process_link(img.attributes["src"]&.value) }.compact
+      doc.css("img").map {|img| process_link(img.attributes["src"] && img.attributes["src"].value) }.compact
     end
 
     private
