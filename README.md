@@ -1,4 +1,4 @@
-# ImageExtractor
+# Extract Tools
 A sample tool for extracting image links from a given page.
 
 ## Usage
